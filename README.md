@@ -42,3 +42,8 @@ Image width: 100vw;
 #Automating Performance Best Practices with PageSpeed - Google I/O 2013
 <hr>
 <a href="https://www.youtube.com/watch?v=uR5urTx8S4E">https://www.youtube.com/watch?v=uR5urTx8S4E</a>
+ 
+ 
+  1. Provides Suggestions to Increase speed
+  2. Suggestions to what to modify and <h3>relative link to take action</h3>.
+
