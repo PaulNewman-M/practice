@@ -1,0 +1,23 @@
+
+.siz .tb th{
+	font-size: 3em;
+padding-top: :20px;
+	
+}
+
+th{
+	padding-top: 20px;
+	
+}
+
+
+
+@media screen and (max-width:400px){
+.table{
+
+	width:100%;
+	overflow-x:auto;
+}
+
+
+}
