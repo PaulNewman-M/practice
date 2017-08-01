@@ -25,6 +25,6 @@ Image width: 100vw;
 # <a href="https://www.youtube.com/watch?v=pS8udLMOOaE">https://www.youtube.com/watch?v=pS8udLMOOaE</a>
 
 #webp 
-<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501617743/download_xpi3qs.webp>42kb
-<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501617850/download_rfdevd.jpg> 240kb
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501617743/download_xpi3qs.webp">42kb
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501617850/download_rfdevd.jpg"> 240kb
 
