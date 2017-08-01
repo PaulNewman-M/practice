@@ -38,3 +38,7 @@ Image width: 100vw;
 
 240kb
 ~~~
+
+#Automating Performance Best Practices with PageSpeed - Google I/O 2013
+<hr>
+<a href="https://www.youtube.com/watch?v=uR5urTx8S4E">https://www.youtube.com/watch?v=uR5urTx8S4E</a>
