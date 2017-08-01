@@ -31,6 +31,7 @@ Image width: 100vw;
 42kb
 ~~~
 
+#Jpeg
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501617850/download_rfdevd.jpg"> 
 
 ~~~
