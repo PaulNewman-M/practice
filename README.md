@@ -45,7 +45,7 @@ Image width: 100vw;
  
  
   1. Provides Suggestions to Increase speed
-  2. Suggestions to what to modify and <strong>relative link to take action</strong>.
-  3.If the older client doesn't understand the wenP then it serves with Jpeg.
+  2. Suggestions to what to modify and <strong>relative link to take action</strong>
+  3. If the older client doesn't understand the wenP then it serves with Jpeg.
 
 
