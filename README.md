@@ -47,5 +47,7 @@ Image width: 100vw;
   1. Provides Suggestions to Increase speed
   2. Suggestions to what to modify and <strong>relative link to take action</strong>
   3. If the older client doesn't understand the WebP then it serves with Jpeg.
+  
+  <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501628293/Screen_Shot_2017-08-01_at_3.57.29_PM_l3y11s.png">
 
 
