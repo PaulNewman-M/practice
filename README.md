@@ -8,3 +8,7 @@ Image width: 100vw;
 
 <h4> Selecting the right image format </h4>
 <img src="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/images/format-tree.png">
+
+
+<h4> Image Optimization</h4>
+<a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization">https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization</a>
