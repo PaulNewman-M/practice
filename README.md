@@ -13,10 +13,13 @@ Image width: 100vw;
 <h4> Image Optimization</h4>
 <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization">https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization</a>
 
-# <a href="https://www.youtube.com/watch?v=pS8udLMOOaE">https://www.youtube.com/watch?v=pS8udLMOOaE</a>
+
 
 ~~~
 
 *  WebP delivers a 30% filesize decrease over a comparable JPEG image.
 
 ~~~
+
+
+# <a href="https://www.youtube.com/watch?v=pS8udLMOOaE">https://www.youtube.com/watch?v=pS8udLMOOaE</a>
