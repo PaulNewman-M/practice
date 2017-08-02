@@ -75,3 +75,6 @@ Data Saver should turn on automatically. If it doesn't, at the top right of your
 Click the checkbox.
 
 # Data saver is not available in iphones 
+
+Link:
+<a href="https://support.google.com/chrome/answer/2392284?co=GENIE.Platform%3DDesktop&hl=en&oco=0">https://support.google.com/chrome/answer/2392284?co=GENIE.Platform%3DDesktop&hl=en&oco=0</a>
