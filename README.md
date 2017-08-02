@@ -50,4 +50,28 @@ Image width: 100vw;
   
   <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1501628293/Screen_Shot_2017-08-01_at_3.57.29_PM_l3y11s.png">
 
+<hr>
 
+<strong>Use less data with Chrome’s Data Saver</strong>
+With Data Saver, you can lower your phone bill or load webpages faster on slow connections by reducing the amount of data Chrome uses.
+
+How Data Saver works
+When you use Data Saver, most of your web traffic goes through Google servers before being downloaded to your device. Less data gets downloaded to your device, because Google servers will compress it.
+
+Data Saver won't work if you're on secure pages (addresses that start with https://) or if you're browsing in private with Incognito mode.
+
+If you're using Data Saver, keep in mind that:
+
+Some websites might have trouble finding your location.
+Some images might look fuzzy.
+Websites that are restricted to certain groups, like your company’s internal sites, might not load.
+You might not be able to sign in to your mobile carrier's website.
+Changes you made to your /etc/hosts file won't work.
+
+
+<strong>Turn on Data Saver</strong>
+Install the Data Saver extension from Chrome Web Store.
+Data Saver should turn on automatically. If it doesn't, at the top right of your browser, click Data Saver Data Saver.
+Click the checkbox.
+
+# Data saver is not available in iphones 
