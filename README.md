@@ -91,6 +91,8 @@ https://pngmini.com/
 ~~~
 What is the main difference between lossy and lossless compression?
 
-Lossless and lossy compression are terms that describe whether or not, in the compression of a file, all original data can be recovered when the file is uncompressed. With lossless compression, every single bit of data that was originally 
-in the file remains after the file is uncompressed
+Lossless and lossy compression are terms that describe whether or not, 
+in the compression of a file, all original data can be recovered when the 
+file is uncompressed. With lossless compression, every single bit of data 
+that was originally in the file remains after the file is uncompressed
 ~~~
