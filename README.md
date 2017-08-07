@@ -82,3 +82,13 @@ Link:
 <h3> ImageOptum </h3>
 
 <a href="http://udacity.github.io/responsive-images/examples/1-17/sameImage/index.html">ImageOptim is excellent for publishing images on the web (easily shrinks images “Saved for Web” in Photoshop). It's useful for making Mac and iPhone/iPad ...</a>
+
+<h3> ImageAlpha — image minifier (like JPEG with transparency!) </h3> 
+
+https://pngmini.com/
+<a href="https://pngmini.com/">ImageAlpha greatly reduces file sizes of 24-bit PNG files (including alpha transparency) by applying lossy compression and conversion to a more efficient ..</a>
+
+~~~
+What is the main difference between lossy and lossless compression?
+Lossless and lossy compression are terms that describe whether or not, in the compression of a file, all original data can be recovered when the file is uncompressed. With lossless compression, every single bit of data that was originally in the file remains after the file is uncompressed.
+~~~
