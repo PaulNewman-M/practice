@@ -78,3 +78,7 @@ Click the checkbox.
 
 Link:
 <a href="https://support.google.com/chrome/answer/2392284?co=GENIE.Platform%3DDesktop&hl=en&oco=0">https://support.google.com/chrome/answer/2392284?co=GENIE.Platform%3DDesktop&hl=en&oco=0</a>
+
+<h3> ImageOptum </h3>
+
+<a href="http://udacity.github.io/responsive-images/examples/1-17/sameImage/index.html">ImageOptim is excellent for publishing images on the web (easily shrinks images “Saved for Web” in Photoshop). It's useful for making Mac and iPhone/iPad ...</a>
