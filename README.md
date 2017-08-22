@@ -266,6 +266,20 @@ package.json
 }
 ```
 
+<h4> How does a JavaScript engine, such as Rhino, V8, or SpiderMonkey, work? What are some useful resources for understanding them? </h4>
+
+~~~
+V8 is faster engine ,its open source.Java script is staic obect-oriented programming (which is slow) it makes dynamic by creating the hidden class objects(which is faster).
+~~~
+
+<a href="https://www.quora.com/How-does-a-JavaScript-engine-such-as-Rhino-V8-or-SpiderMonkey-work-What-are-some-useful-resources-for-understanding-them">https://www.quora.com/How-does-a-JavaScript-engine-such-as-Rhino-V8-or-SpiderMonkey-work-What-are-some-useful-resources-for-understanding-them</a>
+
+<p> Interesting Projects already using V8 </p>
+<ul><li> chromium <//li>
+<li> V8R: Extensible javasript scripting shell </li>
+<li> pyV8 : Python running on the top of v8 </li>
+</ul>
+
 
 
 
