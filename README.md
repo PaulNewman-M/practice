@@ -204,6 +204,70 @@ after <strong> grunt imagemin</strong> command : it creates dist folder with com
 
 ```
 
+Paradigm 3:
+
+~~~
+Previous project converts jpeg to compressed jpeg  but at the end it decreases to only 50 to 80 kb.
+Where as Webp format compress file to 70 to 85 %( by own cross-check). Standrad document says reduces to 25-34%. 
+
+provided plugin does lossless or lossy? 
+~~~
+
+```javascript
+WebP is a modern image format that provides superior lossless and lossy compression for images on the web. ... WebP lossy images are 25-34% smaller than comparable JPEG images at equivalent SSIM quality index. Lossless WebP supports transparency (also known as alpha channel) at a cost of just 22% additional bytes.
+```
+
+```javascript
+
+Gruntfile.js
+module.exports = function (grunt) {
+  grunt.initConfig({
+    cwebp: {
+     
+      dynamic: {
+        options: {
+          q: 50
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/', 
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'dist/'
+        }]
+      }
+    }
+  });
+ 
+  grunt.loadNpmTasks('grunt-cwebp');
+  grunt.registerTask('default', ['cwebp']);
+};
+```
+```javascript
+
+{
+  "name": "projectgrunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-cwebp": "^2.1.0"    // new plugin converts jpeg to webp
+  }
+}
+```
+
+
+
 
 
 
