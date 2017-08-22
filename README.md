@@ -100,3 +100,7 @@ that was originally in the file remains after the file is uncompressed
 <h4> How to find the Natural size of the Image </h4>
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1502738344/Screen_Shot_2017-08-14_at_12_12_52_PM_cvapt4.webp"></img>
+
+<h4> Automation : Grunt (configure and merge with projects)</h4
+
+<a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grunt </a>
