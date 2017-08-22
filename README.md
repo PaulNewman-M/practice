@@ -243,7 +243,7 @@ module.exports = function (grunt) {
 };
 ```
 ```javascript
-
+package.json
 {
   "name": "projectgrunt",
   "version": "1.0.0",
