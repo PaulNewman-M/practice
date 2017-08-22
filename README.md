@@ -109,6 +109,8 @@ Process is wiered to understand, first read Documentation and follow steps:
 
 step 1: <a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grunt </a>
 
+paradigm :1 
+
 ```javascript 
 package.json
   "name": "projectgrunt",
@@ -154,6 +156,56 @@ grunt.loadNpmTasks('grunt-contrib-concat');
 intro.js/(built.js)
 hello how are you this is grunt 
 ```
+
+Paradigm 2:
+
+```javascript
+
+package.json
+{
+  "name": "projectgrunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
+
+Gruntfile.js
+module.exports =function(grunt){
+grunt.initConfig({
+    imagemin: {
+        dynamic: {
+            files: [{
+                expand: true,
+                cwd: 'src/',
+                src: ['**/*.{png,jpg,gif}'],
+                dest: 'dist/'
+            }]
+        }
+}
+});
+grunt.loadNpmTasks('grunt-contrib-imagemin');
+grunt.registerTask('default', ['imagemin']);
+};
+
+after grunt imageim command : it creates dist folder with compressed files (lossless)
+
+```
+
+
+
 
 
 
