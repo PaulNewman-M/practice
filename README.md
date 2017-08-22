@@ -101,6 +101,65 @@ that was originally in the file remains after the file is uncompressed
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1502738344/Screen_Shot_2017-08-14_at_12_12_52_PM_cvapt4.webp"></img>
 
+#  ********************************       Grunt Automation   *************************************************************
+
 <h4> Automation : Grunt (configure and merge with projects)</h4
 
-<a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grunt </a>
+Process is wiered to understand, first read Documentation and follow steps:
+
+step 1: <a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grunt </a>
+
+```package.json
+
+  "name": "projectgrunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
+
+```
+<hr>
+```gruntfile.js
+
+module.exports =function(grunt){
+
+grunt.initConfig({
+  concat: {
+    
+    dist: {
+      src: ['intro.js'],
+      dest: 'built.js',
+    },
+  },
+});
+
+grunt.loadNpmTasks('grunt-contrib-concat');
+//grunt.registerTasks('default',['concat']);
+};
+
+```
+<hr>
+
+```intro.js
+/(built.js)
+
+hello how are you this is grunt 
+
+```
+
+
+
+
