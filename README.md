@@ -109,7 +109,8 @@ Process is wiered to understand, first read Documentation and follow steps:
 
 step 1: <a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grunt </a>
 
-``` package.json
+```javascript 
+package.json
   "name": "projectgrunt",
   "version": "1.0.0",
   "description": "",
@@ -130,7 +131,8 @@ step 1: <a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grun
 }
 ```
 <hr>
-```gruntfile.js
+```javascript
+gruntfile.js
 
 module.exports =function(grunt){
 grunt.initConfig({
@@ -149,9 +151,8 @@ grunt.loadNpmTasks('grunt-contrib-concat');
 ```
 <hr>
 
-```intro.js
-
-/(built.js)
+```javasript
+intro.js/(built.js)
 
 hello how are you this is grunt 
 
