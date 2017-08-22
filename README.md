@@ -101,7 +101,7 @@ that was originally in the file remains after the file is uncompressed
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1502738344/Screen_Shot_2017-08-14_at_12_12_52_PM_cvapt4.webp"></img>
 
-#  ********************************       Grunt Automation   *************************************************************
+#  ****************    Grunt Automation   ***********************
 
 <h4> Automation : Grunt (configure and merge with projects)</h4
 
@@ -109,7 +109,7 @@ Process is wiered to understand, first read Documentation and follow steps:
 
 step 1: <a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grunt </a>
 
-```package.json
+``` package.json
 
   "name": "projectgrunt",
   "version": "1.0.0",
