@@ -133,11 +133,9 @@ package.json
 <hr>
 ```javascript
 gruntfile.js
-
 module.exports =function(grunt){
 grunt.initConfig({
   concat: {
-    
     dist: {
       src: ['intro.js'],
       dest: 'built.js',
@@ -147,15 +145,12 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-contrib-concat');
 //grunt.registerTasks('default',['concat']);
 };
-
 ```
 <hr>
 
 ```javasript
 intro.js/(built.js)
-
 hello how are you this is grunt 
-
 ```
 
 
