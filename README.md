@@ -131,6 +131,7 @@ package.json
 }
 ```
 <hr>
+
 ```javascript
 gruntfile.js
 module.exports =function(grunt){
@@ -146,6 +147,7 @@ grunt.loadNpmTasks('grunt-contrib-concat');
 //grunt.registerTasks('default',['concat']);
 };
 ```
+
 <hr>
 
 ```javasript
