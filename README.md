@@ -200,7 +200,7 @@ grunt.loadNpmTasks('grunt-contrib-imagemin');
 grunt.registerTask('default', ['imagemin']);
 };
 
-after grunt imageim command : it creates dist folder with compressed files (lossless)
+after <strong> grunt imagemin</strong> command : it creates dist folder with compressed files (lossless)
 
 ```
 
