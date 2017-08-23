@@ -291,6 +291,8 @@ image2.jpg JPEG 1224x816 1224x816+0+0 8-bit sRGB 108993B 0.000u 0:00.000
 
 <a href="https://developers.google.com/speed/pagespeed/insights/?url=simpl.info%2Fcssfilters">best practice: html tag followed by id or class name </a>
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1503480111/Screen_Shot_2017-08-23_at_2.20.26_AM_jnkfyc.png">
+<p>css file can also be automated to compress file </p>
+<ul><li>Grunt</li></li>Gulp</li><li>web pack</li></ul>
 
 
 
