@@ -287,6 +287,9 @@ PaulNewman (branch #) mogrifyy $ identify image2.jpg
 image2.jpg JPEG 1224x816 1224x816+0+0 8-bit sRGB 108993B 0.000u 0:00.000
 ~~~
 
+<h4> Google Optimizations : foofle page spedd -> Insight <strong>normal.css vs optimised/organised.css</strong> </h4>
+
+<a href="http://res.cloudinary.com/duqwfkttw/image/upload/v1503480111/Screen_Shot_2017-08-23_at_2.20.26_AM_jnkfyc.png"></a>
 
 
 
