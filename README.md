@@ -282,6 +282,8 @@ V8 is faster engine ,its open source.Java script is staic obect-oriented program
 
 <h4> The order from "freshness" to "stable": Canary -> Dev -> Beta -> Stable</h4>
 
+PaulNewman (branch #) mogrifyy $ identify image2.jpg
+image2.jpg JPEG 1224x816 1224x816+0+0 8-bit sRGB 108993B 0.000u 0:00.000
 
 
 
