@@ -111,10 +111,10 @@ step 1: <a href="https://www.youtube.com/watch?v=TMKj0BxzVgw"> Automation : Grun
 
 <h5>Required steps to install Grunt and start Automation</h5>
 <ul>
-		<li>npm install -g grunt-cli (g- global cli-command line inteface)</li>
-		<li>npm init (creates package.json)</li>
-		<li>npm install -s grunt (creates node_modules folder)</li>
-		<li>touch Gruntfile.js (creates empty file)</li>
+		<li>npm install -g grunt-cli               (g- global cli-command line inteface) </li>
+		<li>npm init                               (creates package.json)</li>
+		<li>npm install -s grunt                   (creates node_modules folder)</li>
+		<li>touch Gruntfile.js                     (creates empty file)</li>
 </ul>
 
 
