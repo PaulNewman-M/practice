@@ -303,6 +303,42 @@ image2.jpg JPEG 1224x816 1224x816+0+0 8-bit sRGB 108993B 0.000u 0:00.000
 <p>css file can also be automated to compress file <a href="http://cssnano.co">cssnano.co</a> </p>
 <ul><li>Grunt</li><li>Gulp</li><li>web pack</li></ul>
 
+<h4> Grunt can combine n number of task runners</h4>
+
+-> run grunt cwebp uglify 
+
+```javascript
+
+module.exports = function (grunt) {
+  grunt.initConfig({
+      uglify: {
+      
+          build: {
+        src: 'js/intro.js',
+        dest: 'dist/build/global.js'
+      }
+    },
+    cwebp: {
+     
+      dynamic: {
+        options: {
+          q: 50
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/', 
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'dist/'
+        }]
+      }
+    }
+  });
+  grunt.loadNpmTasks('grunt-contrib-uglify'); 
+  grunt.loadNpmTasks('grunt-cwebp');
+  grunt.registerTask('default', ['uglify'],['cwebp']);
+};
+```
+
 
 
 
