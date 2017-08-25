@@ -339,9 +339,9 @@ module.exports = function (grunt) {
 };
 ```
 
-<h4>watch for added and deleted files </h4>
-
-install jshint and watch plugins and configure
+<h4>1) jshint and watch 2)watch for added and deleted files </h4>
+1)<a href="http://www.codereadability.com/jshint-with-grunt/">http://www.codereadability.com/jshint-with-grunt/</a>
+2) install jshint and watch plugins and configure
 
 ```javascript
 module.exports = function (grunt) {
