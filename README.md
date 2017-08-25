@@ -339,6 +339,67 @@ module.exports = function (grunt) {
 };
 ```
 
+<h4>watch for added and deleted files </h4>
+
+install jshint and watch plugins and configure
+
+```javascript
+module.exports = function (grunt) {
+  grunt.initConfig({
+    concat: {   
+    dist: {
+        src: [
+            'js/*.js', // All JS in the libs folder
+            'js/intro.js'  // This specific file
+        ],
+        dest: 'js/build/concat.js',
+    }
+},
+      uglify: {
+      
+          build: {
+        src: 'js/Gruntfile.js',
+        dest: 'js/build/global.js'
+      }
+    },
+    cwebp: {
+     
+      dynamic: {
+        options: {
+          q: 50
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/', 
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'dist/'
+        }]
+      }
+    },
+    jshint: {
+            all: ['Gruntfile.js']
+        },
+    watch: {
+  scripts: {
+    files: ['**'],
+    tasks: ['concat','uglify','cwebp'],
+    options: {
+      event: ['added', 'deleted'],
+    },
+  },
+}
+  });
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify'); 
+  grunt.loadNpmTasks('grunt-cwebp');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.registerTask('default',['concat'], ['uglify'],['cwebp'],['watch'],['jshint']);
+};
+```
+
+
+
 
 
 
