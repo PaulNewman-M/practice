@@ -398,7 +398,11 @@ module.exports = function (grunt) {
 };
 ```
 
+<h4> cross- browers compatability</h4>
 
+<a href="https://classroom.udacity.com/courses/ud304/lessons/2810388540/concepts/28721985670923">cross-browser</a>
+
+download normalize.css ,link to html link tag
 
 
 
