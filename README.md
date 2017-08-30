@@ -407,6 +407,9 @@ download normalize.css ,link to html link tag
 <p> viewport width - > responsive to resize ,size changes with respect to resize window (i.e viewport)</p>
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1504057735/Screen_Shot_2017-08-29_at_6.48.34_PM_jthbyn.png">
 
+<h4> Evolution of jit-grunt</h4>
+<a href="https://www.youtube.com/watch?v=zT6GNRGKQuY">https://www.youtube.com/watch?v=zT6GNRGKQuY</a>
+
 
 
 
