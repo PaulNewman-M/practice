@@ -403,7 +403,9 @@ module.exports = function (grunt) {
 <a href="https://classroom.udacity.com/courses/ud304/lessons/2810388540/concepts/28721985670923">cross-browser</a>
 download normalize.css ,link to html link tag
 
-
+<h4> How did I solved one of the biggest bug ( email overflow out of the page )</h4>
+<p> viewport width - > responsive to resize ,size changes with respect to resize window (i.e viewport)</p>
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1504057735/Screen_Shot_2017-08-29_at_6.48.34_PM_jthbyn.png">
 
 
 
