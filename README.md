@@ -411,7 +411,7 @@ download normalize.css ,link to html link tag
 <a href="https://www.youtube.com/watch?v=zT6GNRGKQuY">https://www.youtube.com/watch?v=zT6GNRGKQuY</a>
 
 <h4> Responsive design: How to avoid text overfolw out of container</h4>
-<img src="practice/Screen Shot 2017-08-30 at 10.24.56 PM.png"/>
+<img src="https://github.com/PaulNewman-M/practice/blob/master/Screen%20Shot%202017-08-30%20at%2010.24.56%20PM.png?raw=true"/>
 https://github.com/PaulNewman-M/practice/blob/master/Screen%20Shot%202017-08-30%20at%2010.24.56%20PM.png?raw=true
 
 
