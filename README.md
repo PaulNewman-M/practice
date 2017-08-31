@@ -410,7 +410,8 @@ download normalize.css ,link to html link tag
 <h4> Evolution of jit-grunt</h4>
 <a href="https://www.youtube.com/watch?v=zT6GNRGKQuY">https://www.youtube.com/watch?v=zT6GNRGKQuY</a>
 
-
+<h4> Responsive design: How to avoid text overfolw out of container</h4>
+<img src="practice/Screen Shot 2017-08-30 at 10.24.56 PM.png"></img>
 
 
 
