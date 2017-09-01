@@ -414,7 +414,7 @@ download normalize.css ,link to html link tag
 https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 <img src="https://github.com/PaulNewman-M/practice/blob/master/Screen%20Shot%202017-08-30%20at%2010.24.56%20PM.png?raw=true"/>
 
-<h4>Ryan Willims</h4>
+<h4>Ryan Williams</h4>
 https://twitter.com/ryanwi<br>
 https://medium.freecodecamp.org/trending-developer-skills-based-on-my-analysis-of-ask-hn-whos-hiring-26c02a3ca1fd<br>
 https://medium.freecodecamp.org/every-single-machine-learning-course-on-the-internet-ranked-by-your-reviews-3c4a7b8026c0
