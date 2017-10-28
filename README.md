@@ -419,4 +419,6 @@ https://twitter.com/ryanwi<br>
 https://medium.freecodecamp.org/trending-developer-skills-based-on-my-analysis-of-ask-hn-whos-hiring-26c02a3ca1fd<br>
 https://medium.freecodecamp.org/every-single-machine-learning-course-on-the-internet-ranked-by-your-reviews-3c4a7b8026c0
 
-
+<hr></hr>
+<h2>DOM</h2>
+console.dir(document);
